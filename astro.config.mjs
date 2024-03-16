@@ -6,6 +6,5 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://daena-araekhar.github.io',
-  base:'theAraekhian',
   integrations: [tailwind(), mdx()]
 });
