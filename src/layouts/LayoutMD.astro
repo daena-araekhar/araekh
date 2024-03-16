@@ -1,0 +1,56 @@
+---
+const { frontmatter } = Astro.props;
+import Title from "../components/Title.astro";
+import Header from "../components/headers/Header.astro"
+import Footer from "../components/Footer.astro"
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <style is=global>
+      .container {
+        padding-left: 25%;
+        padding-right: 25%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+@media screen and (max-width: 1200px) {
+  .container {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+    </style>
+    <title>The Araekhia</title>
+  </head>
+  <body>
+    <Header/>
+    <div class="container ">
+    <article class="dark:prose-invert prose-h1:font-bold prose-h1:text-xl prose-a:text-blue-600 prose-p:text-justify prose-headings:underline">
+      <Title title={frontmatter.title} subtitle={frontmatter.subtitle} />
+
+        <slot />
+      </article>
+    </div>
+<Footer/>
+  </body>
+</html>
+

@@ -1,0 +1,20 @@
+---
+import BlogPreview from "../../components/cards/CardStories.astro";
+import Title from "../../components/Title.astro";
+import Layout from "../../layouts/LayoutMain.astro";
+import Header from "../../components/headers/HeaderToRead.astro";
+let allPost = await Astro.glob('./stories/*')
+
+---
+<Layout>
+  <Header/>
+  <Title title="Stories"  subtitle="Es lo que hay"/>
+
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-10 md:px-20">
+    {allPost.map((p) => <BlogPreview post={p}/>)}
+    
+  </div>
+</div>
+</Layout>
+

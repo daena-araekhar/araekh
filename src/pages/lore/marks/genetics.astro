@@ -1,0 +1,23 @@
+---
+import BlogPreview from "../../../components/cards/CardLore.astro";
+import Title from "../../../components/Title.astro";
+import Layout from "../../../layouts/LayoutMain.astro";
+import Header from "../../../components/headers/HeaderLore.astro"
+let allPost = await Astro.glob('../info/marks_gen_*')
+
+---
+<Layout>
+  <Header/>
+  <Title title="Aprende más sobre este mundo"  subtitle=""/>
+  <section>
+    <div
+      class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl"
+    >
+      <div class="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-3">
+        {allPost.map((p) => <BlogPreview post={p} />)}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+
