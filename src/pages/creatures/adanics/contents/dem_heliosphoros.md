@@ -12,7 +12,7 @@ En forma de corona, brotan de su frente y se desplazan hacia la parte tracera de
 ## Alas
 Sin alas físicas, puede invocar alas de energía con ligeros rastros de espectro. No representan ninguna utilidad particular, no sirven para el vuelo y requieren concentración constante para mantenerlas activas.
 # Habilidades
-Es un demonio de altar, suele tener hasta tres seguidores. Sus poderes mentales se limitan a la hipnosis.
+Es un demonio de culto, suele tener hasta tres seguidores. Sus poderes mentales se limitan a la hipnosis.
 # Pecados
 No suelen tener marcas de pecado. Si ocurriese, solo marcas secundarias.
 # Reproducción
