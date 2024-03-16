@@ -1,14 +1,14 @@
 ---
-import BlogPreview from "../../components/cards/CardNews.astro";
 import Title from "../../components/Title.astro";
-import Layout from "../../layouts/LayoutMain.astro";
+import BlogPreview from "../../components/cards/CardNews.astro";
 import Header from "../../components/headers/HeaderToRead.astro";
+import Layout from "../../layouts/LayoutMain.astro";
 let allPost = await Astro.glob("./articulos/*");
 ---
 
 <Layout>
   <Header />
-  <Title title="Stories" subtitle="Es lo que hay" />
+  <Title title="Lee las noticias de la Araekhia" subtitle="" />
 
   <section>
     <div
