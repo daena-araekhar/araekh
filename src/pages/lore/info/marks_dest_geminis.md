@@ -2,7 +2,7 @@
 layout: ../../../layouts/LayoutMD.astro
 title: Destino geminis
 subtitle: Le puede pasar a gemelos
- image: http://placekitten.com/g/350/350
+image: http://placekitten.com/g/350/350
 ---
 # Titulo de ejemplo
 
