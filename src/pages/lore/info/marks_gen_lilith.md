@@ -2,7 +2,7 @@
 layout: ../../../layouts/LayoutMD.astro
 title: Marca genética
 subtitle: subtitulo
- 
+ image: http://placekitten.com/g/350/350
 ---
 # Titulo de ejemplo
 

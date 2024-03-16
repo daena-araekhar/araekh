@@ -5,7 +5,7 @@ category: Creature
 description:
 race: Faey-Mothura
 specie: Moth Phosphora
-image: https://placehold.jp/350x250.png
+image: http://placekitten.com/g/350/250
 ---
 
 Su piel está cubierta por una suave capa de diminutos bellos grisaseos, de textura similar a seda, sus ojos suelen ser grandes, generalmente negros o grises claros, sin brillo. Su espalda tiene dos alas superiores largas, con lineas y circulos blancos fluorescentes, dos alas inferiores opacas de menor tamaño. En sus manos poseen uñas retractiles, siendo las de los pulgares las mas largas y filosas."

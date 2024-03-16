@@ -4,7 +4,7 @@ title: Arpía cazadora
 category: Creature
 race: Arpía
 specie: Cazadora
-image: https://placehold.jp/350x250.png
+image: http://placekitten.com/g/350/250
 ---
 # Anatomía
 De tamaño medio, muscular, garras contractiles. Brazos y piernas cubiertas de plumas. Cabeza con cabellos y plumas. Sus piernas poseen flexión, permitiendoles agarre.

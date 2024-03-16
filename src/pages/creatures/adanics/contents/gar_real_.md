@@ -5,6 +5,6 @@ category: Creature
 description: Coronada de plumas
 race: Garuda
 specie: Real
-image: https://placehold.jp/350x250.png
+image: http://placekitten.com/g/350/250
 ---
 De plumas doradas, las garudas reales poseen un conjunto de plumas en forma de anillo en sus cabezas, que al proyectar las alas estas toman la apariencia de una corona. 

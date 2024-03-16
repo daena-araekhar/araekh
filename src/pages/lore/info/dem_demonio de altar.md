@@ -2,7 +2,7 @@
 layout: ../../../layouts/LayoutMD.astro
 title: Demonio de altar
 subtitle: Siempre piden más de lo que dan
- 
+ image: http://placekitten.com/g/350/350
 ---
 # Titulo de ejemplo
 

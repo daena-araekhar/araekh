@@ -5,5 +5,5 @@ category: Creature
 description: No se deja acariciar
 race: Wolfskin
 specie: DarkenWolf
-image: https://placehold.jp/350x250.png
+image: http://placekitten.com/g/350/250
 ---

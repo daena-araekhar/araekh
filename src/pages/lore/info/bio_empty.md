@@ -2,6 +2,7 @@
 layout: ../../../layouts/LayoutMD.astro
 title: Algo de biología
 subtitle: Subtitulo
+image: http://placekitten.com/g/350/350
  
 ---
 # Titulo de ejemplo

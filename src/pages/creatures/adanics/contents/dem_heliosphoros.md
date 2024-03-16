@@ -4,7 +4,7 @@ title: Heliosphoros
 category: Creature
 race: Demon
 specie: Heliosphoros
-image: https://placehold.jp/350x250.png
+image: http://placekitten.com/g/350/250
 ---
 # Anatomía
 ## Cuernos

@@ -4,6 +4,6 @@ title: Otro cuento no escroto
 subtitle: Posta, no escrito
 genre: Fantasía, comedia y drama
 description: No tiene nada, hay que sentarse a escribir
-img1:
+image: http://placekitten.com/g/350/350
 imag2:
 ---
