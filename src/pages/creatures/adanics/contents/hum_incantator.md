@@ -7,3 +7,4 @@ race: Human
 specie: Incantator
 image: https://placehold.co/350x250
 ---
+Un mago, tira hechizos a lo jarry poter
