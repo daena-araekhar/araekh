@@ -5,7 +5,7 @@ category: Creature
 description: Bestia alada
 race: Garuda
 specie: Arpía
-image: http://placekitten.com/g/350/250
+image: https://placehold.co/350x250
 ---
 
 Sus brazos se cubren de plumas al tiempo que proyecta las alas de su espalda, pero estos no son utilizados para el vuelo, en cambio sirven como medio de defensa.

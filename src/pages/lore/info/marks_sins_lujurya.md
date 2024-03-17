@@ -2,7 +2,7 @@
 layout: ../../../layouts/LayoutMD.astro
 title: Lujuria
 subtitle: Subtitulo
-image: http://placekitten.com/g/350/350
+image: https://placehold.co/350x350
 ---
 # Titulo de ejemplo
 

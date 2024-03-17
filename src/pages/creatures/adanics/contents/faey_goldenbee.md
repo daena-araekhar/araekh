@@ -4,7 +4,7 @@ title: Golden Bee
 category: Creature
 race: Faey
 specie: Golden Bee
-image: http://placekitten.com/g/350/250
+image: https://placehold.co/350x250
 ---
 # Anatomía
 De cuerpo ligero, cuatro alas transparentes y ojos dorados.

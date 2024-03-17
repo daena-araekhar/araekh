@@ -2,7 +2,7 @@
 layout: ../../../layouts/LayoutMD.astro
 title: Destino geminis
 subtitle: Le puede pasar a gemelos
-image: http://placekitten.com/g/350/350
+image: https://placehold.co/350x350
 ---
 Marca fatua que afecta preponderantemente a **maeguis**, **demonios** y **faerys**. Por ley, dentro de la Confederación debe realizarse un análsis para descartar la existencia de la marca en nacimiento de gemelos.
 

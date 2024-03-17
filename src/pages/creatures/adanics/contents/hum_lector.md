@@ -5,5 +5,5 @@ category: Creature
 description: Bicho volador
 race: Human-Maegui
 specie: Lector
-image: http://placekitten.com/g/350/250
+image: https://placehold.co/350x250
 ---

@@ -2,7 +2,7 @@
 layout: ../../../layouts/LayoutMD.astro
 title: Demonio de altar
 subtitle: Siempre piden más de lo que dan
-image: http://placekitten.com/g/350/350
+image: https://placehold.co/350x350
 ---
 Se clasifica como **demonio de altar** a aquellos pertenecientes a la raza demoníaca que tienen la capacidad de conceder su "**favor**" a otro individuo no demoníaco, a cambio de culto a su figura.
 

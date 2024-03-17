@@ -5,5 +5,5 @@ category: Creature
 description: Pesado, pero muy rapido
 race: Bearskin
 specie: GrayClaws
-image: http://placekitten.com/g/350/250
+image: https://placehold.co/350x250
 ---

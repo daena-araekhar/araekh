@@ -5,7 +5,7 @@ category: Arma
 description: Arma de contención no letal
 uso: Cacería
 code: aro-caz
-image: http://placekitten.com/g/350/250
+image: https://placehold.co/350x250
 ---
 # Descripción
 Aro de tamaño variable, diseñado para adherirse al cuerpo del objetivo luego de ser lanzado.

@@ -5,5 +5,5 @@ category: Creature
 description: Criatura de ojos penetrantes
 race: Naego
 specie: Naego Basilisko
-image: http://placekitten.com/g/350/250
+image: https://placehold.co/350x250
 ---
