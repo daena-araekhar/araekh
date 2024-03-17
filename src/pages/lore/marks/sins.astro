@@ -1,13 +1,15 @@
 ---
-import BlogPreview from "../../../components/cards/CardLore.astro";
 import Title from "../../../components/Title.astro";
+import BlogPreview from "../../../components/cards/CardLore.astro";
+import Header from "../../../components/headers/HeaderLore.astro";
+import Buttons from "../../../components/navbuttons/lore.astro";
 import Layout from "../../../layouts/LayoutMain.astro";
-import Header from "../../../components/headers/HeaderLore.astro"
 let allPost = await Astro.glob('../info/marks_sins*')
 
 ---
 <Layout>
   <Header/>
+  <Buttons/>
   <Title title="Aprende más sobre este mundo"  subtitle=""/>
   <section>
     <div
