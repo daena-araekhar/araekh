@@ -2,7 +2,8 @@
 const { frontmatter } = Astro.props;
 import Footer from "../components/Footer.astro";
 import Title from "../components/Title.astro";
-import Header from "../components/headers/HeaderAdanic.astro";
+import Header from "../components/headers/Header.astro";
+import Buttons from "../components/navbuttons/adanicSpecies.astro";
 ---
 
 <html lang="en">
@@ -45,6 +46,7 @@ import Header from "../components/headers/HeaderAdanic.astro";
     <Header/>
     <div class="container ">
     <article class="dark:prose-invert prose-h1:font-bold prose-h1:text-xl prose-a:text-blue-600 prose-p:text-justify prose-headings:underline">
+      <Buttons/>
       <Title title={frontmatter.title} subtitle={frontmatter.subtitle} />
 
         <slot />
