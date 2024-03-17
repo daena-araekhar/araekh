@@ -1,14 +1,17 @@
 ---
 import Title from "../../components/Title.astro";
-import Header from "../../components/headers/HeaderCreatures.astro"
 import BlogPreview from "../../components/cards/CardAdanics.astro";
+import Header from "../../components/headers/Header.astro";
+import Buttons from "../../components/navbuttons/creatures.astro";
 import Layout from "../../layouts/LayoutMain.astro";
 let allPost = await Astro.glob('./**/**/*md')
 
 ---
 <Layout>
 <Header/>
+
 <Title title="The creatures"  subtitle=""/>
+<Buttons/>
   <div class="flex flex-wrap place-content-between">
     {allPost.map((p) => <BlogPreview post={p}/>)}
   </div> 

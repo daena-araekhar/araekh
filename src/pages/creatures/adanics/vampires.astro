@@ -1,14 +1,16 @@
 ---
-import BlogPreview from "../../../components/cards/CardAdanics.astro";
 import Title from "../../../components/Title.astro";
+import BlogPreview from "../../../components/cards/CardAdanics.astro";
+import Header from "../../../components/headers/HeaderAdanic.astro";
+import Buttons from "../../../components/navbuttons/adanicSpecies.astro";
 import Layout from "../../../layouts/LayoutMain.astro";
-import Header from "../../../components/headers/HeaderAdanic.astro"
 let allPost = await Astro.glob('./contents/vamp_*md')
-
 ---
 <Layout>
   <Header/>
-  <Title title="The creatures"  subtitle="Adanics"/>
+  <Buttons/>
+  <Title title="Vampiros"  subtitle="Adanics"/>
+  
   <div class="flex flex-wrap place-content-around">
     {allPost.map((p) => <BlogPreview post={p}/>)}
   </div>
